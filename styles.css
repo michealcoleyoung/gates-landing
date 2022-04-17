@@ -1,0 +1,74 @@
+body, html {
+    background: linear-gradient(#250101, #580201);
+    background-repeat: no-repeat;
+    height: 1080px;
+    overscroll-behavior: none;
+    margin: 0;
+    width: 1440px;
+    height: 1024px;
+}
+
+
+.introduction {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 510px;
+    height: 108px;
+    left: 80px;
+    top: 50px;
+}
+
+.book-title {
+    font-family: 'Metal Mania', cursive;
+    position: absolute;
+    width: 551px;
+    height: 85px;
+    left: 62px;
+    top: 207px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 85px;
+    color: #D90504;
+}
+
+.image {
+    float: right;
+    width: 770px;
+    height: 1024px;
+    left: 670px;
+    top: 0px;
+    filter: saturate(0%);
+    margin: 0;
+}
+
+
+.author-quote {
+    position: absolute;
+    width: 414px;
+    height: 132px;
+    left: 128px;
+    top: 657px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.amazon-link {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 235px;
+    top: 719px;
+    margin-top: 20px;
+}
