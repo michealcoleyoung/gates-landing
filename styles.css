@@ -1,15 +1,140 @@
 body, html {
     background: linear-gradient(#250101, #580201);
     background-repeat: no-repeat;
-    height: 1080px;
     overscroll-behavior: none;
     margin: 0;
-    width: 1440px;
-    height: 1024px;
+    height: 100%;
+    overflow-x: auto;
+
 }
 
 
+.book-details {
+    width: 670px;
+    float: left;
+    display: grid;
+    place-items: center;
+    
+}
+
 .introduction {
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    width: 510px;
+    height: 108px;
+    margin-top: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.book-title {
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: #D90504;
+    font-size: 69px;
+    width: 551px;
+    height: 85px;
+    left: 62px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 85px;
+    color: #D90504;
+    margin-top: 10px;
+}
+
+.gates-book {
+    display: grid;
+    place-items: center;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: -25px;
+}
+
+.author-quote {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    width: 452px;
+    height: 132px;
+}
+
+
+.amazon-link {
+    margin-top: -85px;
+    cursor: pointer;
+
+}
+
+.email-message {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+    width: 556px;
+    height: 22px;
+    margin-top: -40px;
+}
+
+form {
+    display: flex;
+    direction: row;
+    width: 403px;
+    height: 56px;
+    left: 134px;
+    margin-top: 15px;
+}
+
+input[type="email"] {
+    flex-grow: 2;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    border-radius: 4px 0px 0px 4px;
+    border-style: none;
+    padding-left: 30px;
+    width: 235px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+button {
+    font-family: 'Inter';
+    border: 2px solid white;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 20px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #D90504, 0%, #A60402 100%);
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+
+.artist-portrait {
+    /* float: right; */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0%);
+    width: 100%;
+    max-height: 100%;
+}
+
+
+/* .introduction {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
@@ -71,4 +196,67 @@ body, html {
     left: 235px;
     top: 719px;
     margin-top: 20px;
+    cursor: pointer;
 }
+
+.email-message {
+    position: absolute;
+    width: 556px;
+    height: 22px;
+    left: 59px;
+    top: 880px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.gates-book {
+    position: absolute;
+    width: 363px;
+    height: 363px;
+    left: 154px;
+    top: 320px;
+
+}
+
+form {
+    display: flex;
+    direction: row;
+    position: absolute;
+    width: 403px;
+    height: 56px;
+    left: 134px;
+    top: 940px;
+}
+
+input[type="email"] {
+    flex-grow: 2;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 700;
+    border-radius: 4px 0px 0px 4px;
+    border-style: none;
+    padding-left: 30px;
+    width: 235px;
+}
+
+input:focus {
+    outline: none;
+}
+
+
+button {
+    font-family: 'Inter';
+    border: 2px solid white;
+    border-radius: 0px 4px 4px 0px;
+    font-size: 20px;
+    font-weight: 900;
+    background: linear-gradient(180deg, #D90504, 0%, #A60402 100%);
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+ */
