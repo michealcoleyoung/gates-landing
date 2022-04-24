@@ -8,8 +8,18 @@ body, html {
     overflow: hidden;
 }
 
-.container { 
-    width: 5000px
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.book-container {
+    /* border: 4px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .book-details {
@@ -17,8 +27,10 @@ body, html {
     display: grid;
     place-items: center;
     float: left;
-    height: 100vh;
-
+    /* height: 100vh; */
+    object-fit: cover;
+    /* border: 4px solid black; */
+    transform: scale(1.2);
 }
 
 .introduction {
@@ -127,16 +139,20 @@ button {
     margin-right: 20px;
 }
 
+.artist-portrait {
+    /* border: 4px solid blue; */
+}
+
 
 .artist {
+    width: 100vh;
     height: 100vh;
-    width: 110vh;
     object-fit: cover;
     position: absolute;
     filter: saturate(0%);
     overflow: hidden;
     background-size: contain;
-    right: 0px;
+    /* right: 0px; */
 }
 
 
