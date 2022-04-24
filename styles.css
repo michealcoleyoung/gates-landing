@@ -5,16 +5,20 @@ body, html {
     margin: 0;
     height: 100%;
     overflow-x: auto;
-
+    overflow: hidden;
 }
 
+.container { 
+    width: 5000px
+}
 
 .book-details {
     width: 670px;
-    float: left;
     display: grid;
     place-items: center;
-    
+    float: left;
+    height: 100vh;
+
 }
 
 .introduction {
@@ -43,7 +47,7 @@ body, html {
     font-size: 69px;
     line-height: 85px;
     color: #D90504;
-    margin-top: 10px;
+    margin-top: -10px;
 }
 
 .gates-book {
@@ -92,6 +96,7 @@ form {
     height: 56px;
     left: 134px;
     margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 input[type="email"] {
@@ -123,15 +128,17 @@ button {
 }
 
 
-.artist-portrait {
-    /* float: right; */
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
+.artist {
+    height: 100vh;
+    width: 110vh;
+    object-fit: cover;
+    position: absolute;
     filter: saturate(0%);
-    width: 100%;
-    max-height: 100%;
+    overflow: hidden;
+    background-size: contain;
+    right: 0px;
 }
+
 
 
 /* .introduction {
