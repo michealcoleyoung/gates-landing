@@ -110,22 +110,3 @@ input[type="email"] {
     object-fit: cover;
     filter: saturate(0%);
 }
-
-
-@media (min-width: 150em) {
-    html {
-      font-size: 20px;
-    }
-  }
-  
-  @media (max-width: 1441px) {
-    html {
-      font-size: 20px;
-    }
-  }
-  
-  @media (max-width: 1025px) {
-    html {
-      font-size: 18px;
-    }
-  }
