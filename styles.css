@@ -25,14 +25,13 @@ html, body, .container-fluid {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
-    font-size: 2vw
 }
 
 .book-title {
     font-family: 'Metal Mania', cursive;
     text-align: center;
     color: #D90504;
-    font-size: 4vw;
+    font-size: 90px;
 }
 
 
@@ -44,7 +43,7 @@ html, body, .container-fluid {
     font-family: 'Inter';
     font-style: italic;
     font-weight: 700 !important;
-    font-size: 1vw;
+    font-size: 24px;
 }
 
 .amazon-link {
@@ -55,12 +54,12 @@ html, body, .container-fluid {
 .email-message {
     font-family: 'Inter';
     font-weight: 900;
-    font-size: 1vw;
+    font-size: 25px;
     margin-top: -25px;
 }
 
 input[type="email"] {
-    font-size: 1vw !important;
+    font-size: 25px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     border-style: none;
@@ -83,7 +82,7 @@ input[type="email"] {
     font-family: 'Inter';
     border: 2px solid white !important;
     border-radius: 0px 4px 4px 0px !important;
-    font-size: 1.5vw !important;
+    font-size: 25px;
     font-weight: 700 !important;
     background: linear-gradient(180deg, #D90504, 0%, #A60402 100%);
     color: white !important;
@@ -111,3 +110,22 @@ input[type="email"] {
     object-fit: cover;
     filter: saturate(0%);
 }
+
+
+@media (min-width: 150em) {
+    html {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1441px) {
+    html {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 1025px) {
+    html {
+      font-size: 18px;
+    }
+  }
