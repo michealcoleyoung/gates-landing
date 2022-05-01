@@ -68,7 +68,7 @@ input[type="email"] {
 }
 
 .input-group {
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .input-group:focus {
@@ -109,4 +109,52 @@ input[type="email"] {
     width: 100%;
     object-fit: cover;
     filter: saturate(0%);
+}
+
+@media only screen and (max-width: 2879px)  {
+    
+    .introduction {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 25px;
+    }
+    
+    .book-title {
+        font-family: 'Metal Mania', cursive;
+        text-align: center;
+        color: #D90504;
+        font-size: 50px;
+    }
+
+    .gates-book {
+        width: 300px;
+    }
+    
+    
+    .author-quote {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 700 !important;
+        font-size: 15px;
+    }
+    
+    .amazon-link {
+        cursor: pointer;
+        margin-top: -25px;
+        width: 110px;
+    }
+    
+    .email-message {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 15px;
+        margin-top: -25px;
+    }
+    
+    .input-group {
+        padding: 10px
+    }
+
+    
 }
