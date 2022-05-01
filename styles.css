@@ -1,25 +1,13 @@
-/* html, body, section,div {
-    background: linear-gradient(#250101, #580201);
-    background-repeat: no-repeat;
-    overscroll-behavior: none;
-    margin: 0;
-    height: 100%;
-    overflow-x: auto;
+html, body, .container-fluid {
+    height: 100vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
     overflow: hidden;
-
-} */
-
-html, body, section, div {
-    height: 100%;
+    background: linear-gradient(#250101, #580201);
   }
 
 
-section {
-width: 100%;
-}
-  
 .left-half {
-    background: linear-gradient(#250101, #580201);
     float: left;
     width: 50%;
     text-align: center;
@@ -27,59 +15,16 @@ width: 100%;
     font-style: normal;
     font-weight: 900;
     color: white;
-}
-.right-half {
-    background-color: #b6701e;
-    float: left;
-    width: 50%;
 }
 
 .book-details {
     margin-top: 80px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.artist {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    filter: saturate(0%);;
-}
-
-
-/* .book-details {
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    color: white;
-    width: 670px;
-    margin-top: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-} */
-
 .introduction {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
-
 }
 
 .book-title {
@@ -88,6 +33,7 @@ width: 100%;
     color: #D90504;
     font-size: 69px;
 }
+
 
 .gates-book {
     width: 400px;
@@ -120,6 +66,8 @@ input[type="email"] {
     border-style: none;
     padding-left: 30px;
     color: black;
+    padding-left: 50px;
+    min-width: 50px !important;
 }
 
 .input-group {
@@ -148,4 +96,21 @@ input[type="email"] {
 .btn:focus {
     outline: none;
     box-shadow: none;
+}
+
+
+.right-half {
+    background-color: #b6701e;
+    float: left;
+    width: 50%;
+    height: 100vh;
+
+}
+
+.artist {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: saturate(0%);
+    
 }
