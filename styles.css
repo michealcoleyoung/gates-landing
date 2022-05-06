@@ -18,7 +18,7 @@ html, body, .container-fluid {
 }
 
 .book-details {
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .introduction {
@@ -59,16 +59,16 @@ html, body, .container-fluid {
 }
 
 input[type="email"] {
-    font-size: 25px;
+    font-size: 15px !important;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     border-style: none;
     color: black;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .input-group {
-    margin-top: -20px;
+    margin-top: -35px;
 }
 
 .input-group:focus {
@@ -77,17 +77,16 @@ input[type="email"] {
 }
 
 
-
 .btn {
     font-family: 'Inter';
     border: 2px solid white !important;
     border-radius: 0px 4px 4px 0px !important;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 700 !important;
-    background: linear-gradient(180deg, #D90504, 0%, #A60402 100%);
+    background: linear-gradient(#D90504, #A60402);
     color: white !important;
     cursor: pointer;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .btn:focus {
@@ -111,7 +110,8 @@ input[type="email"] {
     filter: saturate(0%);
 }
 
-@media only screen and (max-width: 2879px)  {
+
+@media only screen and (max-width: 1440px)  {
     
     .introduction {
         font-family: 'Inter', sans-serif;
@@ -155,6 +155,98 @@ input[type="email"] {
     .input-group {
         padding: 10px
     }
+    
+}
 
+
+/* mobile */
+@media only screen and (max-width: 375px)  {
+
+    .introduction {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+    }
+    
+    .book-title {
+        font-family: 'Metal Mania', cursive;
+        text-align: center;
+        color: #D90504;
+        font-size: 37px;
+    }
+
+    .gates-book {
+        width: 163px;
+    }
+    
+    
+    .author-quote {
+        font-family: 'Inter';
+        font-style: italic;
+        font-weight: 700 !important;
+        font-size: 9px;
+    }
+    
+    .amazon-link {
+        cursor: pointer;
+        margin-top: -35px;
+        width: 90px;
+    }
+    
+    .email-message {
+        font-family: 'Inter';
+        font-weight: 900;
+        font-size: 7.5px;
+        /* margin-top: 5px; */
+    }
+    
+    .input-group {
+        padding: 10px
+    }
+    
+    .right-half {
+        display: none;
+    }
+
+    .left-half {
+        width: 100%;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        color: white;
+    }
+
+    input[type="email"] {
+        font-size: 7.5px !important;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        border-style: none;
+        color: black;
+        margin-left: 50px;
+    }
+
+    .btn {
+        font-family: 'Inter';
+        border: 2px solid white !important;
+        border-radius: 0px 4px 4px 0px !important;
+        font-size: 7.5px;
+        font-weight: 700 !important;
+        background: linear-gradient(#D90504, #A60402);
+        color: white !important;
+        cursor: pointer;
+        margin-right: 50px;
+    }
+
+    .artist-mobile {
+        width: 170px;
+        height: 170px;
+        filter: saturate(0%);
+        border-radius: 124.5px;
+        object-fit: cover;
+        margin-bottom: 20px;
+        /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    }
     
 }
