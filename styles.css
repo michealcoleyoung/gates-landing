@@ -119,16 +119,10 @@ input[type="email"] {
 @media only screen and (min-width: 375px)  {
 
     .introduction {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
         font-size: 18px;
     }
     
     .book-title {
-        font-family: 'Metal Mania', cursive;
-        text-align: center;
-        color: #D90504;
         font-size: 39px;
     }
 
@@ -137,14 +131,10 @@ input[type="email"] {
     }
     
     .author-quote {
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 700 !important;
         font-size: 11px;
     }
     
     .amazon-link {
-        cursor: pointer;
         margin-top: -120px;
         width: 92px;
     }
@@ -169,7 +159,6 @@ input[type="email"] {
     }
 
     .btn {
-        font-family: 'Inter';
         font-size: 7.5px;
         margin-right: 50px;
     }
