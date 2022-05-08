@@ -19,7 +19,7 @@ html, body, .container-fluid {
 }
 
 .book-details {
-    margin-top: 85px;
+    margin-top: 80px;
 }
 
 .introduction {
@@ -122,72 +122,55 @@ input[type="email"] {
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 900;
-        font-size: 15px;
+        font-size: 18px;
     }
     
     .book-title {
         font-family: 'Metal Mania', cursive;
         text-align: center;
         color: #D90504;
-        font-size: 37px;
+        font-size: 39px;
     }
 
     .gates-book {
-        width: 163px;
+        width: 165px;
     }
     
     .author-quote {
         font-family: 'Inter';
         font-style: italic;
         font-weight: 700 !important;
-        font-size: 9px;
+        font-size: 11px;
     }
     
     .amazon-link {
         cursor: pointer;
         margin-top: -120px;
-        width: 90px;
+        width: 92px;
     }
     
     .email-message {
-        font-family: 'Inter';
-        font-weight: 900;
-        font-size: 7.5px;
+        font-size: 8px;
         margin-top: -100px;
     }
     
     .input-group {
         padding: 10px;
-        margin-top: -50px
+        margin-top: -58px
     }
 
     .left-half {
         width: 100%;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        color: white;
     }
 
     input[type="email"] {
         font-size: 7.5px !important;
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-        border-style: none;
-        color: black;
         margin-left: 50px;
     }
 
     .btn {
         font-family: 'Inter';
-        border: 2px solid white !important;
-        border-radius: 0px 4px 4px 0px !important;
         font-size: 7.5px;
-        font-weight: 700 !important;
-        background: linear-gradient(#D90504, #A60402);
-        color: white !important;
-        cursor: pointer;
         margin-right: 50px;
     }
 
