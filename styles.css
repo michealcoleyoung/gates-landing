@@ -114,80 +114,9 @@ input[type="email"] {
     filter: saturate(0%);
 }
 
-/* laptop screen */
-@media only screen and (max-width: 1440px)  {
-    
-    .introduction {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 25px;
-    }
-    
-    .book-title {
-        font-family: 'Metal Mania', cursive;
-        text-align: center;
-        color: #D90504;
-        font-size: 50px;
-    }
-
-    .gates-book {
-        width: 300px;
-    }
-    
-    
-    .author-quote {
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 700 !important;
-        font-size: 15px;
-    }
-    
-    .amazon-link {
-        cursor: pointer;
-        margin-top: -90px;
-        width: 140px;
-    }
-    
-    .email-message {
-        font-family: 'Inter';
-        font-weight: 900;
-        font-size: 15px;
-        margin-top: -85px;
-    }
-    
-    input[type="email"] {
-    font-size: 15px !important;
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    border-style: none;
-    color: black;
-    margin-left: 100px;
-    }
-    
-    .input-group {
-        padding: 10px;
-        margin-top: -50px
-    }
-    
-    .btn {
-    font-family: 'Inter';
-    border: 2px solid white !important;
-    border-radius: 0px 4px 4px 0px !important;
-    font-size: 15px;
-    font-weight: 700 !important;
-    background: linear-gradient(#D90504, #A60402);
-    color: white !important;
-    cursor: pointer;
-    margin-right: 100px;
-    }
-    
-    
-}
-
 
 /* mobile */
-@media only screen and (min-width: 360px) and (max-width: 810px)  {
+@media only screen and (min-width: 375px)  {
 
     .introduction {
         font-family: 'Inter', sans-serif;
@@ -207,7 +136,6 @@ input[type="email"] {
         width: 163px;
     }
     
-    
     .author-quote {
         font-family: 'Inter';
         font-style: italic;
@@ -217,7 +145,7 @@ input[type="email"] {
     
     .amazon-link {
         cursor: pointer;
-        margin-top: -100px;
+        margin-top: -120px;
         width: 90px;
     }
     
@@ -231,103 +159,6 @@ input[type="email"] {
     .input-group {
         padding: 10px;
         margin-top: -50px
-    }
-    
-    .right-half {
-        display: none;
-    }
-
-    .left-half {
-        width: 100%;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        color: white;
-    }
-
-    input[type="email"] {
-        font-size: 7.5px !important;
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-        border-style: none;
-        color: black;
-        margin-left: 50px;
-    }
-
-    .btn {
-        font-family: 'Inter';
-        border: 2px solid white !important;
-        border-radius: 0px 4px 4px 0px !important;
-        font-size: 7.5px;
-        font-weight: 700 !important;
-        background: linear-gradient(#D90504, #A60402);
-        color: white !important;
-        cursor: pointer;
-        margin-right: 50px;
-    }
-
-    .artist-mobile {
-        width: 170px;
-        height: 170px;
-        filter: saturate(0%);
-        border-radius: 124.5px;
-        object-fit: cover;
-        margin-bottom: 20px;
-    }
-    
-}
-
-
-/* tablet */
-@media only screen and (min-width: 810px) and (max-width: 1440px)  {
-
-    .introduction {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 15px;
-    }
-    
-    .book-title {
-        font-family: 'Metal Mania', cursive;
-        text-align: center;
-        color: #D90504;
-        font-size: 37px;
-    }
-
-    .gates-book {
-        width: 163px;
-    }
-    
-    
-    .author-quote {
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 700 !important;
-        font-size: 9px;
-    }
-    
-    .amazon-link {
-        cursor: pointer;
-        margin-top: -100px;
-        width: 90px;
-    }
-    
-    .email-message {
-        font-family: 'Inter';
-        font-weight: 900;
-        font-size: 7.5px;
-        margin-top: -100px;
-    }
-    
-    .input-group {
-        padding: 10px;
-        margin-top: -50px
-    }
-    
-    .right-half {
-        display: none;
     }
 
     .left-half {
