@@ -2,7 +2,7 @@ html, body, .container-fluid {
     height: 100vh;
     padding-left: 0rem;
     padding-right: 0rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: linear-gradient(#250101, #580201);
   }
 
