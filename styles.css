@@ -112,10 +112,8 @@ input[type="email"] {
     box-shadow: none;
 }
 
-
-
 /* Tablets */
-@media only screen and (min-width: 810px) {
+@media only screen and (min-width: 800px) {
     .artist-mobile {
         display: none !important;
     }
@@ -165,7 +163,7 @@ input[type="email"] {
 }
 
 /* Laptop */
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1200px) {
     .left-half {
         width: 50%;
         float: left;
@@ -185,7 +183,7 @@ input[type="email"] {
     }
 
     .author-quote {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .amazon-link {
@@ -200,7 +198,7 @@ input[type="email"] {
     }
 
     .email-message {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     input[type="email"] {
@@ -210,6 +208,75 @@ input[type="email"] {
 
     .btn {
         font-size: 14px;
+        margin-right: 150px;
+    }
+
+
+    .right-half {
+        background-color: #b6701e;
+        float: left;
+        width: 50%;
+        height: 100vh;
+    
+    }
+    
+    .artist {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        filter: saturate(0%);
+        display: block;
+    }
+
+}
+
+
+/* Large desktop */
+@media only screen and (min-width: 2000px) {
+    .left-half {
+        width: 50%;
+        float: left;
+    }
+
+    .introduction {
+        font-size: 35px;
+    }
+
+    .book-title {
+        font-size: 80px;
+        margin-top: -5px;
+    }
+
+    .gates-book {
+        width: 480px;
+    }
+
+    .author-quote {
+        font-size: 20px;
+    }
+
+    .amazon-link {
+        width: 170px;
+        margin-top: -40px;
+        margin-bottom: -40px;
+
+    }
+
+    .input-group {
+        margin-top: -58px;
+    }
+
+    .email-message {
+        font-size: 20px;
+    }
+
+    input[type="email"] {
+        font-size: 20px !important;
+        margin-left: 150px;
+    }
+
+    .btn {
+        font-size: 20px;
         margin-right: 150px;
     }
 
