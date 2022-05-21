@@ -1,123 +1,118 @@
-/* big displays */
 html, body, .container-fluid {
     height: 100vh;
     padding-left: 0rem;
     padding-right: 0rem;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: linear-gradient(#250101, #580201);
   }
 
+/* base styles for mobile */
+.left-half {
+    width: 100%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+}
 
+.book-details {
+    margin-top: 50px;
+}
 
-/* Mobile */
-@media only screen and (min-width: 365px)  {
+.artist-mobile {
+    width: 170px;
+    height: 170px;
+    filter: saturate(0%);
+    border-radius: 124.5px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-top: -25px;
+}
 
-    .left-half {
-        width: 100%;
-        text-align: center;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-        color: white;
-    }
+.introduction {
+    font-size: 1.125em;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
 
-    .book-details {
-        margin-top: 50px;
-    }
+.book-title {
+    font-size: 39px;
+    font-family: 'Metal Mania', cursive;
+    text-align: center;
+    color: #D90504;
+    margin-top: 10px;
+}
 
-    .artist-mobile {
-        width: 170px;
-        height: 170px;
-        filter: saturate(0%);
-        border-radius: 124.5px;
-        object-fit: cover;
-        margin-bottom: 20px;
-        margin-top: -25px;
-    }
+.gates-book {
+    width: 165px;
+}
 
-    .introduction {
-        font-size: 1.125em;
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 900;
-    }
-    
-    .book-title {
-        font-size: 39px;
-        font-family: 'Metal Mania', cursive;
-        text-align: center;
-        color: #D90504;
-        margin-top: 10px;
-    }
+.author-quote {
+    font-size: 11px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700 !important;
+}
 
-    .gates-book {
-        width: 165px;
-    }
-    
-    .author-quote {
-        font-size: 11px;
-        font-family: 'Inter';
-        font-style: italic;
-        font-weight: 700 !important;
-    }
-    
-    .amazon-link {
-        cursor: pointer;
-        width: 120px;
-        margin-top: -20px;
-        margin-bottom: -30px;
-
-    }
-    
-    .email-message {
-        font-size: 11px;
-        font-family: 'Inter';
-        font-weight: 900;
-    }
-    
-    .input-group {
-        padding: 10px;
-        margin-top: -58px
-    }
-
-    .input-group:focus {
-        outline: none;
-        box-shadow: none;
-    }
-
-    input[type="email"] {
-        font-size: 11px !important;
-        margin-left: 10px;
-        font-family: 'Inter', sans-serif;
-        font-weight: 700;
-        border-style: none;
-        color: black;
-        margin-top: 20px;
-    }
-
-    .btn {
-        font-size: 11px;
-        margin-right: 10px;
-        font-family: 'Inter';
-        border: 2px solid white !important;
-        border-radius: 0px 4px 4px 0px !important;
-        font-weight: 700 !important;
-        background: linear-gradient(#D90504, #A60402);
-        color: white !important;
-        cursor: pointer;
-        margin-top: 20px;
-    }
-
-    .artist {
-        display: none;
-    }
-
-    .btn:focus {
-        outline: none;
-        box-shadow: none;
-    }
+.amazon-link {
+    cursor: pointer;
+    width: 120px;
+    margin-top: -20px;
+    margin-bottom: -30px;
 
 }
+
+.email-message {
+    font-size: 11px;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.input-group {
+    padding: 10px;
+    margin-top: -58px
+}
+
+.input-group:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="email"] {
+    font-size: 11px !important;
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-style: none;
+    color: black;
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 11px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    border: 2px solid white !important;
+    border-radius: 0px 4px 4px 0px !important;
+    font-weight: 700 !important;
+    background: linear-gradient(#D90504, #A60402);
+    color: white !important;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.artist {
+    display: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
 
 /* Tablets */
 @media only screen and (min-width: 810px) {
@@ -177,15 +172,17 @@ html, body, .container-fluid {
     }
 
     .introduction {
-        font-size: 25px;
+        font-size: 35px;
     }
 
     .book-title {
-        font-size: 60px;
-        margin-top: -10px;
+        font-size: 80px;
+        margin-top: -5px;
     }
 
-    /* .gates-book {} */
+    .gates-book {
+        width: 320px;
+    }
 
     .author-quote {
         font-size: 13px;
